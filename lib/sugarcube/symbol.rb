@@ -96,6 +96,8 @@ class Symbol
     right: UIInterfaceOrientationLandscapeRight,
   }
 
+=begin
+  # TOUFIQUE: Commenting out because UIInterfaceOrientationMasks can't be found for some reason
   @interface_masks = {
     portrait: UIInterfaceOrientationMaskPortrait,
     landscrape: UIInterfaceOrientationMaskLandscape,
@@ -107,6 +109,7 @@ class Symbol
     all: UIInterfaceOrientationMaskAll,
     ipad: UIInterfaceOrientationMaskAll,
   }
+=end
 
   @textalignments = {
     left: UITextAlignmentLeft,
